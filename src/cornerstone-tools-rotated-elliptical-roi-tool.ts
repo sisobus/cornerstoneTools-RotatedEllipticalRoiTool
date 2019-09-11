@@ -1,10 +1,9 @@
-import cornerstone from 'cornerstone-core'
 import cornerstoneTools from 'cornerstone-tools'
 import { rotatedEllipticalRoiCursor } from './cursor'
 
-const BaseAnnotationTool = cornerstoneTools.import('base/BaseAnnotationTool')
-// const drawTextBox = csTools('drawing/drawTextBox')
-// const getNewContext = csTools('drawing/getNewContext')
+const BaseAnnotationTool = cornerstoneTools.importInternal(
+  'base/BaseAnnotationTool',
+)
 
 export default class RotatedEllipticalRoiTool extends BaseAnnotationTool {
   constructor(props = {}) {
