@@ -14,14 +14,14 @@ export default {
   output: [
     {
       file: pkg.main,
-      name: camelCase('rotated-elliptical-roi-tool'),
+      name: 'RotatedEllipticalRoiTool',
       format: 'umd',
       sourcemap: true,
     },
     { file: pkg.module, format: 'es', sourcemap: true },
   ],
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-  external: [],
+  external: ['cornerstone-core', 'cornerstone-tools'],
   watch: {
     include: 'src/**',
   },
