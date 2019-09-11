@@ -1,0 +1,32 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended"],
+  "jsRules": {
+    "semicolon": [true, "never"],
+    "quotemark": false,
+    "no-console": false,
+    "arrow-parens": false,
+    "interface-name": false,
+    "no-bitwise": false,
+    "ordered-imports": [false],
+    "object-literal-sort-keys": [false],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "variable-name": [true, "ban-keywords", "allow-leading-underscore"]
+  },
+  "rules": {
+    "semicolon": [true, "never"],
+    "quotemark": false,
+    "no-console": false,
+    "arrow-parens": false,
+    "interface-name": false,
+    "no-bitwise": false,
+    "ordered-imports": [false],
+    "object-literal-sort-keys": [false],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "variable-name": [true, "ban-keywords", "allow-leading-underscore"]
+  },
+  "linterOptions": {
+    "exclude": ["**/generated/**", "api/src/scripts/wadouri/*"]
+  },
+  "rulesDirectory": []
+}
