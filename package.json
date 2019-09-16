@@ -1,8 +1,15 @@
 {
   "name": "cornerstone-tools-rotated-elliptical-roi-tool",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.0",
+  "description": "An annotation tool of drawing rotated elliptical roi. It is 3rd party library of cornerstoneTools",
+  "keywords": [
+    "cornerstone",
+    "cornerstoneTools",
+    "RotatedEllipticalRoi",
+    "medical",
+    "image",
+    "annotation"
+  ],
   "main": "dist/rotated-elliptical-roi-tool.umd.js",
   "module": "dist/rotated-elliptical-roi-tool.es5.js",
   "typings": "dist/types/rotated-elliptical-roi-tool.d.ts",
