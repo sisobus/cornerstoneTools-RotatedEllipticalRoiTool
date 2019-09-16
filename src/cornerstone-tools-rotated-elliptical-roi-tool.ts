@@ -526,7 +526,7 @@ function _createTextBoxContent(
   const { area, mean, stdDev, min, max, meanStdDevSUV } = statistics
   const showMinMax = options.showMinMax || false
   const showHounsfieldUnits = options.showHounsfieldUnits !== false
-  const textLines = []
+  const textLines: any[] = []
 
   // Don't display mean/standardDev for color images
   const otherLines = []
