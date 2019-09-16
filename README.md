@@ -28,6 +28,33 @@ This library has dependencies below
 * [cornerstone-math](https://github.com/cornerstonejs/cornerstoneMath)
 
 
+## Examples
+
+#### browser [example](https://github.com/sisobus/cornerstoneTools-RotatedEllipticalRoiTool/blob/master/example/index.html)
+```html
+<script src="../dist/rotated-elliptical-roi-tool.umd.js"></script>
+<script>
+  cornerstoneTools.init({
+    showSVGCursors: true,
+  });
+  cornerstoneTools.addTool(RotatedEllipticalRoiTool);
+  cornerstoneTools.setToolActive("RotatedEllipticalRoi", { mouseButtonMask: 1 });
+</script>
+```
+
+#### node [example](https://github.com/sisobus/cornerstoneTools-RotatedEllipticalRoiTool/blob/master/example/react.js)
+```js
+import RotatedEllipticalRoiTool from "cornerstone-tools-rotated-elliptical-roi-tool";
+cornerstoneTools.init({
+  showSVGCursors: true,
+})
+cornerstoneTools.addTool(RotatedEllipticalRoiTool)
+cornerstoneTools.setToolActive("RotatedEllipticalRoi", {
+  mouseButtonMask: 1,
+})
+```
+
+
 ## LICENSE
 
 MIT
